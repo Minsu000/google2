@@ -12,10 +12,12 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 700px;
+    height: 600px;
     width: 500px;
     position: absolute;
     border: 1px solid #333;
+    box-shadow: 1px 1px 1px #333;
+    
 
 }
 .container > form
@@ -25,23 +27,31 @@ body
     align-items: center;
 
 }
-.container > form > label
+.container > form > .member
 {
-    margin: 30px 0 30px 0;
+    margin-top: 30px;
+
+
+}
+.container > form > .box
+{
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
     
-
 }
-.container > form > label > input
+.container > form > label > .text
 {
 
-    height: ;
+    margin-top: 10px;
 
 }
-.container > form > label > .icon
+.container > form > .box > svg.icon
 {
-    width: 10px;
-    height: 20px;
-
+    width: 20px;
+    height: 30px;
+    margin-top: 18px;
+    margin-right: 10px;
 }
 
 .container > form > h2
@@ -60,14 +70,23 @@ body
     font-size: 20px;
     color: aliceblue;
     height: 40px;
-    width: 400px;
+    width: 439px;
 }
-.container > form > label > .notice
+.container > form > label > a > .notice
 {
     background-color: yellow;
     font-size: 20px;
     color: #333;
     position: absolute;
-    top: 570px;
-    left: 50px;
+    top: 510px;
+    left: 30px;
+}
+
+.container > form > label > a > .notice:hover
+{
+
+    background-color: aqua;
+
+
+
 }
