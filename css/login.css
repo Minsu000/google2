@@ -64,7 +64,7 @@ body
     width: 400px;
 
 }
-.container > form > label > .apply
+.container > form > label >a> .apply
 {
     background-color: blue;
     font-size: 20px;
@@ -84,9 +84,5 @@ body
 
 .container > form > label > a > .notice:hover
 {
-
-    background-color: aqua;
-
-
-
+    background-color: aqua;    
 }
